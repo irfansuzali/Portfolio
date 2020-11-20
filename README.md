@@ -1,3 +1,8 @@
+# Content Description
+This project is a React based application to showcase my relevant projects and experience as a full-stack engineer.
+
+## Languages and Frameworks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
