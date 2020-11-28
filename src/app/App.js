@@ -1,4 +1,7 @@
+//Images
 import profile_pic from '../images/profile_pic.jpg';
+import instahub_pic from '../images/instahub_pic.png';
+// Logos
 import css3_pic from '../images/logos/css3.svg'
 import html5_pic from '../images/logos/html5.svg'
 import bootstrap_pic from '../images/logos/bootstrap.svg'
@@ -9,48 +12,30 @@ import python_pic from '../images/logos/python.svg'
 import squarespace_pic from '../images/logos/squarespace.svg'
 import github_pic from '../images/logos/github.svg'
 import mongodb_pic from '../images/logos/mongodb.svg'
-
-
+//Icons
+import github_icon from '../images/icons/logo-github.svg'
+import linkedin_icon from '../images/icons/logo-linkedin.svg'
 
 import './App.css';
+import Navbar from '../navbar/navbar';
+import Header from '../header/header';
 
 function App() {
   return (
     <div className="App">
       {/* Header */}
       <header className="App-header">
-        <div class="jumbotron jumbotron-fluid jumbotron-header">
-          <div class="container">
-            <h1 class="display-4">Hello, I'm Irfan Suzali</h1>
-            <p class="lead">Aspiring full-stack developer</p>
-            <a class="btn btn-primary btn-lg" href="#about-section" role="button">View my work </a>
-          </div>
-        </div>
+        <Header />
       </header>
-
       {/* Navigation Bar */}
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about-section"> About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio-section">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-section">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* About Section */}
       <div class = "container" id = "about-section">
         <h1>About</h1>
         <img src= {profile_pic} class="img-fluid profile-pic" alt="Responsive Image"/>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            I’m a recent graduate from the University of Illinois Urbana-Champaign with a passion for technology. After many years of tinkering with hardware through hands-on experience, I have decided to pivot towards a more software oriented field where I can utilize code to my bring ideas and thoughts to life. As I continue on my journey of expanding and developing my craft, I welcome new and exciting problems to push myself further and strive to become better everyday.
         </p>
         <h2>Background</h2>
           <p>
@@ -58,16 +43,16 @@ function App() {
           </p>
 
         <h2> Languages and Frameworks </h2>
-        <img src = {html5_pic} class="img-fluid" alt="CSS3"/>
+        <img src = {html5_pic} class="img-fluid" alt="HTML5"/>
         <img src = {css3_pic} class="img-fluid" alt="CSS3"/>
-        <img src = {javascript_pic} class="img-fluid" alt="CSS3"/>
-        <img src = {jquery_pic} class="img-fluid " alt="CSS3"/>
-        <img src = {bootstrap_pic} class="img-fluid" alt="CSS3"/>
-        <img src = {react_pic} class="img-fluid" alt="CSS3"/>
-        <img src = {python_pic} class="img-fluid" alt="CSS3"/>
-        <img src = {squarespace_pic} class="img-fluid" alt="CSS3"/>
-        <img src = {github_pic} class="img-fluid" alt="CSS3"/>
-        <img src = {mongodb_pic} class="img-fluid" alt="CSS3"/>
+        <img src = {javascript_pic} class="img-fluid" alt="Javascript"/>
+        <img src = {jquery_pic} class="img-fluid " alt="Jquery"/>
+        <img src = {bootstrap_pic} class="img-fluid" alt="Bootstrap"/>
+        <img src = {react_pic} class="img-fluid" alt="React"/>
+        <img src = {python_pic} class="img-fluid" alt="Python"/>
+        <img src = {squarespace_pic} class="img-fluid" alt="Squarespace"/>
+        <img src = {github_pic} class="img-fluid" alt="Github"/>
+        <img src = {mongodb_pic} class="img-fluid" alt="MongoDB"/>
 
 
       </div>
@@ -76,17 +61,16 @@ function App() {
         <h1>Portfolio</h1>
           <div class="card">
             <div class="row">
-              <div class= "col-sm-8">
+              <div class= "col-sm-7">
                 <div class="card-body">
                   <h5 class="card-title">InstaHub</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <h6 class="card-subtitle mb-2 text-muted">Squarespace, CMS</h6>
+                  <p class="card-text"></p>
+                  <a href="https://www.getinstahub.com/" class="card-link">Visit Website</a>
                 </div>
               </div>
-              <div class= "col-sm-4">
-
+              <div class= "col-sm-5 portfolio-img">
+                <img src = {instahub_pic} class="img-fluid" alt="CSS3"/>
               </div>
             </div>
 
@@ -115,7 +99,24 @@ function App() {
         </form>
       </div>
 
-      <footer>
+      <footer class = "portfolio-footer">
+        <div class = "row">
+          <div class = "col"></div>
+          <div class = "col-sm-3">
+            <div class="card icon-card">
+              <div class="card-body icon-body">
+                <img src = {linkedin_icon} class="img-fluid" alt="Linkedin"/>
+              </div>
+            </div>
+            <div class="card icon-card">
+              <div class="card-body icon-body">
+                <img src = {github_icon} class="img-fluid" alt="Github"/>
+              </div>
+            </div>
+          </div>
+          <div class = "col"></div>
+        </div>
+        <h6> Irfan Suzali © 2020 </h6>
 
       </footer>
 

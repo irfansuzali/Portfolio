@@ -1,0 +1,19 @@
+.header-main {
+  display: inline;
+}
+.header-name {
+ position: relative;
+ display: inline;
+ background: linear-gradient(to right, royalblue, royalblue 50%, white 50%);
+
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-size: 200% 100%;
+ background-position: 100%;
+ transition: background-position 275ms ease;
+ padding-left: 3px;
+
+}
+.header-name:hover {
+  background-position: 0 100%;
+}
