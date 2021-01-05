@@ -1,6 +1,22 @@
-.header-main {
-  display: inline;
+
+
+.app-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
 }
+
+
+.jumbotron-header {
+  background-color:#282c34;
+}
+
 .header-name {
  position: relative;
  display: inline;

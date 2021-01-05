@@ -1,0 +1,44 @@
+.app-experience {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.experience-text {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.experience-subheading {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.experience-job {
+    text-align: center;
+}
+
+.experience-tech {
+    
+}
+
+.experience-work{  
+    text-align: center;
+}
+
+.logo-img {
+    padding: 0 5px;
+    height: 7rem;
+    width: 7rem;
+
+}
+
+.logo-img-exp {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.logo-row {
+    width: auto;
+}
+

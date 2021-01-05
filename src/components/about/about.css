@@ -1,0 +1,25 @@
+.about-section {
+  background-color: #F0F0F0;
+  min-width: 100vw;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-content {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 75%;
+  
+}
+
+.profile-pic {
+  max-height: 13rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+
+
+
