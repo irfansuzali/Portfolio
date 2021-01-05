@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1690bc34.chunk.css",
+    "main.js": "/portfolio/static/js/main.4995103a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4995103a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.4cc88215.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4cc88215.js.map",
+    "static/js/2.86cd48a4.chunk.js": "/portfolio/static/js/2.86cd48a4.chunk.js",
+    "static/js/2.86cd48a4.chunk.js.map": "/portfolio/static/js/2.86cd48a4.chunk.js.map",
+    "static/js/3.788007f2.chunk.js": "/portfolio/static/js/3.788007f2.chunk.js",
+    "static/js/3.788007f2.chunk.js.map": "/portfolio/static/js/3.788007f2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.1690bc34.chunk.css.map": "/portfolio/static/css/main.1690bc34.chunk.css.map",
+    "static/js/2.86cd48a4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.86cd48a4.chunk.js.LICENSE.txt",
+    "static/media/art_gallery.69077e4b.png": "/portfolio/static/media/art_gallery.69077e4b.png",
+    "static/media/bootstrap.fea313d8.svg": "/portfolio/static/media/bootstrap.fea313d8.svg",
+    "static/media/css3.b828cd0e.svg": "/portfolio/static/media/css3.b828cd0e.svg",
+    "static/media/github.48ac2ab5.svg": "/portfolio/static/media/github.48ac2ab5.svg",
+    "static/media/github.e9fadaa0.svg": "/portfolio/static/media/github.e9fadaa0.svg",
+    "static/media/html5.198ef5dc.svg": "/portfolio/static/media/html5.198ef5dc.svg",
+    "static/media/instahub.a007de9f.png": "/portfolio/static/media/instahub.a007de9f.png",
+    "static/media/instahub_pic.714a21cf.png": "/portfolio/static/media/instahub_pic.714a21cf.png",
+    "static/media/javascript.fabe1e9b.svg": "/portfolio/static/media/javascript.fabe1e9b.svg",
+    "static/media/jquery.cd53e350.svg": "/portfolio/static/media/jquery.cd53e350.svg",
+    "static/media/linkedin.60620006.svg": "/portfolio/static/media/linkedin.60620006.svg",
+    "static/media/mongodb.998e9f5f.svg": "/portfolio/static/media/mongodb.998e9f5f.svg",
+    "static/media/profile_pic.0c8a992c.jpg": "/portfolio/static/media/profile_pic.0c8a992c.jpg",
+    "static/media/python.9601cd8b.svg": "/portfolio/static/media/python.9601cd8b.svg",
+    "static/media/react.9f4d72e0.svg": "/portfolio/static/media/react.9f4d72e0.svg",
+    "static/media/squarespace.4b02c9e9.svg": "/portfolio/static/media/squarespace.4b02c9e9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cc88215.js",
+    "static/js/2.86cd48a4.chunk.js",
+    "static/css/main.1690bc34.chunk.css",
+    "static/js/main.4995103a.chunk.js"
+  ]
+}
