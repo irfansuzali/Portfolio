@@ -10,7 +10,7 @@ export default function Header() {
             <h1 class="display-4 header-main">Hello, I'm
               <h1 class="display-4 header-name"> Irfan Suzali </h1>
             </h1>
-            <p class="lead">Aspiring full-stack developer</p>
+            <p class="lead">Aspiring software developer</p>
             <a class="btn btn-primary btn-lg" href="#about" role="button"> Learn More </a>
           </div>
         </div>
