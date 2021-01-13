@@ -46,7 +46,7 @@ class ContactForm extends Component {
       <>
         <div className="container-contact">
           <div className="row">
-            <div className="col-6 contact-section">
+            <div className="col-md-6 col-sm-12 contact-section">
               <Form onSubmit={this.handleSubmit.bind(this)}>
                 <FormGroup controlId="formBasicEmail">
                   <Label >Email address</Label>

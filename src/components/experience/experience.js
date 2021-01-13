@@ -1,17 +1,17 @@
 import React from 'react'
 import './experience.css'
-import css3_pic from '../images/logos/css3.svg'
-import html5_pic from '../images/logos/html5.svg'
-import bootstrap_pic from '../images/logos/bootstrap.svg'
-import javascript_pic from '../images/logos/javascript.svg'
-import react_pic from '../images/logos/react.svg'
-import jquery_pic from '../images/logos/jquery.svg'
-import python_pic from '../images/logos/python.svg'
-import squarespace_pic from '../images/logos/squarespace.svg'
-import github_pic from '../images/logos/github.svg'
-import mongodb_pic from '../images/logos/mongodb.svg'
-import instahub_pic from '../images/logos/instahub.png'
-import UofI_pic from '../images/logos/UofI.jpg'
+import css3_pic from '../../assets/logos/css3.svg'
+import html5_pic from '../../assets/logos/html5.svg'
+import bootstrap_pic from '../../assets/logos/bootstrap.svg'
+import javascript_pic from '../../assets/logos/javascript.svg'
+import react_pic from '../../assets/logos/react.svg'
+import jquery_pic from '../../assets/logos/jquery.svg'
+import python_pic from '../../assets/logos/python.svg'
+import squarespace_pic from '../../assets/logos/squarespace.svg'
+import github_pic from '../../assets/logos/github.svg'
+import mongodb_pic from '../../assets/logos/mongodb.svg'
+import instahub_pic from '../../assets/logos/instahub.png'
+import UofI_pic from '../../assets/logos/UofI.jpg'
 
 
 function Experience() {
@@ -23,7 +23,7 @@ function Experience() {
             </div>
             <div className="container experience-section">
                 <div className="row">
-                    <div className="col-8 experience-tech">
+                    <div className="col-md-8 col-sm-12 experience-tech">
                         <h4 className="experience-subheading"> Technologies I've Worked With </h4>
                         <div classname="tech">
                             <div clasName="row logo-row">
@@ -44,7 +44,7 @@ function Experience() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4 experience-work">
+                    <div className="col-md-4 col-sm-12 experience-work">
                         <h4 className="experience-subheading experience-job"> Where I've Worked </h4>
                         <img src={instahub_pic} className = "logo-img-exp" width="230px" alt="InstaHub" />
                         <img src={UofI_pic} className = "logo-img-exp"  alt="UofI" />

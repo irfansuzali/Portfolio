@@ -39,6 +39,16 @@
 }
 
 .logo-row {
-    width: auto;
+    margin: auto;
 }
 
+@media (max-width: 544px) {  
+    .logo-img {
+        padding: 0 5px;
+        height: 5.1rem;
+        width: 5.1rem; 
+    }
+    .logo-row {
+        text-align: center;
+    }
+}

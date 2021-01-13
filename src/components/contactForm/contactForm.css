@@ -12,3 +12,9 @@
 .contact-section {
     margin: auto;
 }
+
+@media (max-width: 544px) {  
+    .container-contact {
+        padding:2vw;
+    }
+}

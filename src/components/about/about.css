@@ -21,5 +21,9 @@
 }
 
 
-
+@media (max-width: 544px) {  
+  .about-content {
+    width: 90%
+  }
+}
 
