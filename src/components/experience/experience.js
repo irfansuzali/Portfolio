@@ -11,6 +11,7 @@ import squarespace_pic from '../../assets/logos/squarespace.svg'
 import github_pic from '../../assets/logos/github.svg'
 import mongodb_pic from '../../assets/logos/mongodb.svg'
 import instahub_pic from '../../assets/logos/instahub.png'
+import django_pic from '../../assets/logos/django.svg'
 import UofI_pic from '../../assets/logos/UofI.jpg'
 
 
@@ -39,6 +40,7 @@ function Experience() {
                                 <img src={jquery_pic} className="img-fluid logo-img" alt="Jquery" />
                             </div>
                             <div className="row logo-row">
+                                <img src={django_pic} className="img-fluid logo-img" alt="Django" />
                                 <img src={github_pic} className="img-fluid logo-img" alt="Github" />
                                 <img src={mongodb_pic} className="img-fluid logo-img" alt="MongoDB" />
                             </div>
