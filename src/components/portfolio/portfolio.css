@@ -15,6 +15,7 @@
     width: 75%;
     margin: auto;
     margin-bottom: 50px;
+    height: 300px;
 }
 
 .img-container {
@@ -25,3 +26,11 @@
 .portfolio-img {
 }
 
+@media (max-width: 544px) {  
+    .card-portfolio {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 50px;
+        height: auto;
+    }
+}
